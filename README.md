@@ -10,7 +10,6 @@ This project takes no credit for the original idea or underlying implementation;
 
 ![Proximity Mirror in action](./screenshot.png)
 
-> Place a screenshot named `screenshot.png` in the repository root to display it here.
 
 ## Features
 
