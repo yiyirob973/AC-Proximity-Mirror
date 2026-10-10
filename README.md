@@ -2,9 +2,15 @@
 
 A Lua app for Assetto Corsa that shows a virtual rear-view mirror only when opponent cars are within a configurable distance.
 
-This was built as a simple personal feature request: I wanted a mirror that appears only when nearby cars are close enough to matter, instead of staying visible all the time.
+This project started as a simple personal feature request: I wanted a rear-view mirror that appears only when nearby cars are close enough to matter, instead of staying visible all the time.
 
 This project takes no credit for the original idea or underlying implementation; it was developed with AI assistance. The goal here is to provide a working, configurable mirror app and to acknowledge the people whose work made it possible.
+
+## Screenshot
+
+![Proximity Mirror in action](./screenshot.png)
+
+> Place a screenshot named `screenshot.png` in the repository root to display it here.
 
 ## Features
 
@@ -29,15 +35,21 @@ The motivation for this app was simple: I wanted a rear-view mirror that would o
 
 ## Installation
 
-1. Copy the repository contents into your Assetto Corsa Lua app folder used by Custom Shaders Patch (CSP).
-2. Ensure the app is enabled in the CSP app list.
-3. Open the mirror window from the app UI and adjust the settings to your preference.
+This app is designed to be installed in the Assetto Corsa Lua app folder.
 
-Files included in this repo:
+1. Download or clone this repository.
+2. Copy the entire folder into your Assetto Corsa install at:
+   `Assetto Corsa/apps/lua/`
+3. The app should exist in a structure like:
+   `Assetto Corsa/apps/lua/AC-Proximity-Mirror/`
+4. Make sure the folder contains the required files:
+   - `ProximityMirror.lua`
+   - `manifest.ini`
+   - `icon.png`
+5. Start Assetto Corsa and enable the app through your Lua app manager / CSP app list if required.
+6. Open the mirror window and adjust the settings to your preference.
 
-- `ProximityMirror.lua` — main Lua app logic
-- `manifest.ini` — CSP app metadata and window configuration
-- `icon.png` — app icon
+If you are using Custom Shaders Patch (CSP), this app is intended to be loaded as a Lua app in the standard `apps/lua` directory.
 
 ## Configuration
 
