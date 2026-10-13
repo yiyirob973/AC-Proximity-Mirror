@@ -20,7 +20,6 @@ This project takes no credit for the original idea or underlying implementation;
 - Hover and visibility controls
 - Adjustable mirror appearance, framing, opacity, and color scheme
 - Built-in settings window for tuning behavior
-- Includes a tonemapping workaround for the washed-out rendering issue seen with Pure
 
 ## Why this exists
 
